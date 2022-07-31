@@ -260,10 +260,7 @@ const vocales = ['a','e','i','o','u']
   
     } 
   }
-    } 
-  } 
-}
-  } 
+      
 return 'Dato incorrecto';
   
 }
