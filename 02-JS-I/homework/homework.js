@@ -257,10 +257,8 @@ const vocales = ['a','e','i','o','u']
   for (i in vocales){
     if (vocales[i]===letra){
       return 'Es vocal';
-  
-    } 
-  }
-      
+      }
+  }   
 return 'Dato incorrecto';
   
 }
