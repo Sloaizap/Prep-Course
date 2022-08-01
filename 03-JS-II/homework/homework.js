@@ -142,7 +142,7 @@ function operadoresLogicos(num1, num2, num3) {
   }else if(num1==0||num2==0||num3==0){ 
     return 'Error';
   }else if (Math.max(num1,num2,num3)==num3){
-    return num3++;
+    return num3+ 1;
   }else if(num1>num2 && num1>num3 && num1>0 ){
     return "Número 1 es mayor y positivo";
   }else{
@@ -165,7 +165,7 @@ function esPrimo(numero) {
       continue;
     }
 
-  }if(primo>0){
+  }if(primo>0||numero==0||numero==1){
     return false
     
   }else{
