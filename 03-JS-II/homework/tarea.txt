@@ -1,0 +1,9 @@
+1. 
+La expresion 'for' es una accion en la que se repite una variable a un intervalo dado con un limite condicional, es decir, nos permite repetir muchas veces
+una tarea para ahorrarnos tiempo de escribirla todas las veces y que la computadora realice las permutaciones las veces que se necesite y asi encontrar el 
+resultado que se requiera en muy poco tiempo.
+2.
+Tanto '&&' como '||' son operadores logicos, son simbolos que nos ayudan a traducir la logica al lenguaje de computo, '&&' significa 'y', y se usa para 
+separar 2 condiciones 'condicion1 && condicion2' y significa que ambas condiciones deben cumplirse al mismo tiempo, mientas que si usamos '||' significa 
+que se puede cumplir una de las 2 condiciones, no necesariamente las 2 al mismo tiempo.
+el operador '!' se usa para ejemplificar la negacion, si 'condicion1' es verdadera, '!condicion1' es falsa, y '!!condicion1' es verdadera.
