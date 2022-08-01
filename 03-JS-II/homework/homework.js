@@ -166,7 +166,7 @@ function esPrimo(numero) {
     }
 
   }if(primo>0){
-    return 'falso'
+    return false
     
   }else{
     return true;
