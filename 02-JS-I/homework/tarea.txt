@@ -1,0 +1,14 @@
+ * Variables, son objetos declarados a los que les asignas un valor o defines un espacio, que posteriormente puedes usar o modificar.
+
+ * Strings, son expresiones con un valor de letras y se encierran con ''.
+
+ * Funciones (argumentos, `return`) Las funciones son statements que se declaran con un nombre para la funcion y uno o varios argumentos separados
+ por comas y entre parentesis, las funciones encierran codigo que modifica o opera cuando es invocada de acuerdo a los argumentos que se 
+ introducen en la funcion.
+ 'return' se refiere a una accion que retorna un valor especificado y despues de esta linea ningun codigo se ejecuta.
+
+ * Declaraciones `if`, estas declaraciones encierran un codigo que se cumple solo si una condicion se da, si no es así, se omite y sigue a las
+ siguientes lineas de codigo.
+
+ * Valores booleanos (`true`, `false`), Son expresiones logicas que hacen que las operaciones logicas sean ejecutables como un codigo, 
+ el codigo evalua unas condiciones que dan su valor de true o false a cada condicion, valor, o expresion que haya.
