@@ -115,6 +115,9 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
   var mult=1
+  if(!arguments.length){
+    return 0;
+  }
   for (var i = 0; i < arguments.length; i++){
     mult *= arguments[i];
   }
@@ -199,7 +202,7 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
-  var mayora100= array.filter(e=>e<100);
+  var mayora100= array.filter(e=>e>100);
   return mayora100;
 }
 
@@ -231,17 +234,7 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
-  var arr=[]
-  var i=1
-  while (i<10){
-    if (i!=5){ 
-    numero= numero + 2
-    arr.push(numero);
-    }
-    else{
-      continue;
-    }i++;
-  }return arr;
+  
 
 }
 
