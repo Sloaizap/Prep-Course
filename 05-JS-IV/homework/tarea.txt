@@ -1,0 +1,14 @@
+    * Objetos: es un contenedor de diversas formas, con propiedades, que puede contener cualquier tipo de datos y definir sus propiedades de acuerdo a ellos.
+
+	* Propiedades: contienen los datos que identifican a un objeto, a su vez  se identifican con una clave que es el nombre de dicha propiedad
+     y pueden ser invocados o transformados en cualquier momento, se pueden agregar nuevas propiedades o eliminarlas, usando metodos(funciones) o redefiniendolas.
+
+	* Métodos: Son Funciones que se definen para ser usadas en objetos sin tener que reescribir la funcion en cada uno de ellos como propiedad, en su lugar, 
+    se guarda una propiedad con el nombre de la funcion para así poder invocar la funcion que fue creada fuera del objeto, pero que se ejecute con los parametros del objeto.
+
+	* Bucle `for…in`: es un bucle similar al for, pero en lugar de recorrer una variable definida en su argumento, recorre las claves de un objeto especificandolo luego de
+    declararlo con 'in'. 
+
+	* Notación de puntos vs notación de corchetes: la notacion de puntos es literal, puedes usarla para invocar una propiedad especifica, pero no para referirte a una variable
+    o alguna propiedad que no sea exactamente lo que escribes luego del punto, mientras que la notacion de corchetes identifica por si sola si lo que está dentro de los corchetes
+    es una variable, una propiedad, etc.
