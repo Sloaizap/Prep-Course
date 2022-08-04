@@ -1,0 +1,2 @@
+* Arrays, Son objetos o arreglos que se usan para almacenar una lista ordenada o desordenada de otros objetos o expresiones, tambien 
+puedes guardar otros arreglos dentro y asi realizar una forma de matrices.
