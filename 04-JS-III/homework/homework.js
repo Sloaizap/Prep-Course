@@ -235,13 +235,13 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var arr=[]
-  var i=1
-  while (i<11){
-    numero= numero + 2
-    arr.push(numero);
-    if (i===5){
+  var i=0
+  while (i<10){
+    i++;
+    if (i==5){
       continue;
-    }i++;
+    }numero= numero + 2
+    arr.push(numero);
   }return arr;
 
 }
