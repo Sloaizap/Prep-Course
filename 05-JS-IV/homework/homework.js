@@ -21,7 +21,7 @@ function agregarPropiedad (objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  objeto.property = null
+  objeto[property] = null
   return objeto;
 }
 
@@ -30,7 +30,7 @@ function invocarMetodo (objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  objeto.metodo();
+  objeto[metodo];
 }
 
 function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
@@ -113,7 +113,7 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // Tu código:
-  usuario['amigos'].push('nuevoAmigo');
+  usuario['amigos'].push(nuevoAmigo);
   return usuario;
 }
 
@@ -155,7 +155,7 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
   producto.calcularPrecioDescuento = function(){
-    var x= producto['precio'] - producto['precio']*producto['porcentajeDeDescuento'];
+    var x= producto.precio - producto.precio *producto.porcentajeDeDescuento;
     return x;
   }
 }
