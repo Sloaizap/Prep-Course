@@ -106,7 +106,7 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  return Math.max(numeros);
+  return Math.max.apply(null,numeros);
 }
 
 
@@ -143,7 +143,7 @@ function diaDeLaSemana(numeroDeDia) {
   if (numeroDeDia == 1|| numeroDeDia == 7){
       return 'Es fin de semana';
   }else{
-    return 'Es dia laboral';
+    return 'Es dia Laboral';
   }
 } 
 
@@ -152,8 +152,8 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  a= a.toString()
-    if(a[0]=='9'){
+  n = n.toString()
+    if(n[0]=='9'){
       return true;
     }else{
       return false;
@@ -188,7 +188,7 @@ function mesesDelAño(array) {
   }
   }
   
-  if (meses.length==0){
+  if (meses.length < 3){
       return "No se encontraron los meses pedidos";
    }else{
       return meses;
@@ -217,11 +217,11 @@ function breakStatement(numero) {
   // Tu código:
   var arr=[]
   var i=1
-  while (i<10){
+  while (i<11){
     numero= numero + 2
     arr.push(numero);
     if (numero ===i){
-      return 'Se interrumpió la conexion';
+      return 'Se interrumpió la ejecución';
     }i++;
   }return arr;
 }
