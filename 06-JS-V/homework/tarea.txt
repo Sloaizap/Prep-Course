@@ -1,0 +1,4 @@
+* `prototype`: Es una propiedad que tienen todos los objetos en javascript, que es modificable y permite crear propiedaddes para objetos diferentes que
+ compartan un mismo prototype.
+
+* _Constructors_ (de Clases) : son funciones creadas para generar objetos con las mismas propiedades base.
