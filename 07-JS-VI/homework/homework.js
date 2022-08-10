@@ -51,6 +51,7 @@ function map(array, cb) {
     return cb(el);
 
   });
+  return A;
 }
 
 function filter(array) {
